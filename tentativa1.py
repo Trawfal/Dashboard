@@ -48,8 +48,6 @@ df_selection = df.query(
     "Year == @year & Month == @month"
 )
 
-st.dataframe(df_selection)
-
 
 col1, = st.columns(1)
 col2, col3 = st.columns(2)
